@@ -1,5 +1,4 @@
 function isPalindrome(str) {
-  // Clean the string: remove non-alphanumeric characters and lowercase it
   const cleanStr = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
 
   let left = 0;
