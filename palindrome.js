@@ -12,7 +12,7 @@ function isPalindrome(str) {
     right--;
   }
 
-  return true; // All characters matched
+  return true;
 }
 
 // Test cases
